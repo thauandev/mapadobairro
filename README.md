@@ -1,7 +1,7 @@
 # Mapa do Bairro (Cachambi)
 ---
 
-## Description:
+## Descrição:
 Este aplicativo de página única usa os mapas do Google e a API do Foursquare para listar pontos importantes do bairro do Cachambi, Rio de Janeiro. Este projeto foi feito para Nanodegree desenvolvedor web front-end do Udacity para demonstrar uma boa compreensão de: reactJS, javascript, uso de API, HTML, CSS e etc.
 
 
