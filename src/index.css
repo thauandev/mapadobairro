@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search {
+  z-index: 1;
+  position: fixed;
+}
+
+.search-field {
+  width: 400px;
+  padding: 6px;
+}
+
+ul {
+  background: white;
+  border: 1px;
+  overflow: auto;
+  padding: 0px;
+  margin: 0;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.box {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #000000;
+  color: #269abc;
+}
+
+.box:hover {
+  background-color: #269abc;
+  color: black;
+}
+
+.button {
+  text-align: center;
+  margin-left: 30px;
+  padding: 5px;
+  background-color: white;
+  border: 1px darkgrey solid;
+  cursor: pointer;
+  width: 334px;
+  border: solid 6px #000000;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 15px;
+}
