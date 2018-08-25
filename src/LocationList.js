@@ -47,7 +47,7 @@ class LocationList extends Component {
     }, this);
 
     return (<div className="search">
-      <input role="search" aria-labelledby="filter" id="search-field" className="search-field" type="text" placeholder="Filtre" value={this.state.query} onChange={this.filterLocations}/>
+      <input role="search" aria-label="filter" id="search-field" className="search-field" type="text" placeholder="Filtre" value={this.state.query} onChange={this.filterLocations}/>
       <ul>
         {this.state.suggestions && locationlist}
       </ul>

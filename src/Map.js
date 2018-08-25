@@ -167,7 +167,7 @@ class Map extends Component {
   render() {
     return (<div>
       <LocationList key="100" alllocations={this.state.alllocations} openInfoWindow={this.openInfoWindow} closeInfoWindow={this.closeInfoWindow}/>
-      <div id="map"></div>
+      <div role= "application" aria-label ="map-app" id="map"></div>
     </div>);
   }
 }

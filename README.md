@@ -23,3 +23,10 @@ Depois que tudo estiver instalado:
 npm start
 ```
 O navegador deve abrir automaticamente o aplicativo.  Caso não abra navegar pelo endereço [http://localhost:3000/](http://localhost:3000/)
+
+## Como rodar a aplicação em modo de Produção:
+
+```
+npm run build
+```
+O navegador deve abrir automaticamente o aplicativo.  Caso não abra navegar pelo endereço [http://localhost:8000/](http://localhost:8000/)
